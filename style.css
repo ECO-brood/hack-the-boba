@@ -1,3 +1,22 @@
-body{
+body {
   background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.img {
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  border: 5px solid black;
+}
+.img:hover {
+  transform: scale(1.1);
+  border: 5px solid black;
+}
+
+.text {
+  text-align: center;
+  margin-top: 30px; 
 }
